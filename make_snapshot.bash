@@ -6,6 +6,6 @@ sudo curl --unix-socket /tmp/firecracker.socket -i \
     -H  'Content-Type: application/json' \
     -d '{
             "snapshot_type": "Full",
-            "snapshot_path": "./snapshot_file",
-            "mem_file_path": "./mem_file"
+            "snapshot_path": "./microvm_snapshot",
+            "mem_file_path": "./microvm"
     }'
